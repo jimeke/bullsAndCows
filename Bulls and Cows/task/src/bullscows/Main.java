@@ -16,7 +16,7 @@ public class Main {
             int letters = scanner.nextInt();
             if (digits == 0 && letters == 1) {
                 System.out.println("error");
-                return;
+                return;//
             }
             if (digits > letters) {
                 System.out.println("error");
